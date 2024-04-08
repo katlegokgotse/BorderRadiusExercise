@@ -1,14 +1,44 @@
 
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-.borderRad{
-    border:  solid red;
+.userInput{
     width: 50%;
     display: flex; 
     justify-content: center;
     align-items: center;
     margin: auto;
     padding: 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.borderRad{
+    border: 1px solid red;
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 35px;
+}
+.userInput .userSet {
+    margin-bottom: 25px;
+}
+
+.userInput button{
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.userInput button:hover{
+    transition: 0.5s ease-in;
+   background-color: black;
+   color: cornsilk;
+}
+.borderRad button{
+    border: none;
+    background-color: white;
 }
